@@ -7,7 +7,6 @@ class SourceExpression(Expression):
         self.c = c
         self.d = d
         self.derivative = derivative
-        self._hash = None
 
     def eval(self, value, x):
 
